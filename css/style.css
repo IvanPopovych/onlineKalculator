@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+#body{
+    width: 80%;
+    
+    margin: 0 auto;
+}
+h1,h3{
+    text-align: center;
+    text-decoration: underline;
+}
+aside,article{
+      width:49%;
+      min-height:420px; 
+      background-color: slateblue;
+      border:5px solid green;
+}
+aside{
+    float:left;
+}
+article{
+    float:right;
+}
+footer{
+    clear:both;
+}
+
+#number_a::-webkit-inner-spin-button, #number_b::-webkit-inner-spin-button,
+#number_c::-webkit-inner-spin-button{
+  opacity: 1;
+}
+
+.input{
+    width: 80%;
+    margin:10px auto;
+}
+button{
+    margin-top: 20px;
+}
+input{
+    margin-right: 10px;
+}
+aside img,article img{
+    width:60%;
+    max-height: 150px;
+    margin:0 auto;
+    display: block;
+}
+label{
+    font-size:20px;
+}
